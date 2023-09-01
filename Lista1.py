@@ -38,6 +38,31 @@ else:
 #   Exemplo de entrada das respostas e do gabarito “A-B-C-A-B-C-E-D”
 #   O número de questões pode ser variável (obtenha a informação do usuário)
 #   Deve permitir verificar os acertos de mais de um aluno.
+gabarito = input('Informe o gabarito(exemplo: “A-B-C-A-B-C-E-D”): ')
+alunos = []
+alunosSoma = []
+somaAluno = 1
+while somaAluno > 0:
+    nome = input('Informe o nome do aluno: ')
+    resp = input('Informe a resposta do aluno: ')
+    alunos.append({
+        "nome": nome,
+        "resposta": resp,
+    })
+    novoAluno = input('Deseja informar mais um aluno(S/N): ')
+    if novoAluno == 'S' or novoAluno == 's':
+        somaAluno += 1
+    else:
+        somaAluno = 0
+for a in alunos:
+    respAluno = a["resposta"].split('-')
+    respGabarito = gabarito.split('-')
+    i = 0
+    while i < len(respAluno):
+        if respAluno[i] == gabarito[i]:
+            
+        i += 1
+
 
 
 # 5. Escreva um programa que faz o registro da venda de produtos. Para isso, é preciso:
