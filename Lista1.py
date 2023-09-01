@@ -46,6 +46,7 @@ else:
 #   Adicionar produtos na venda, onde o usuário informa o produto e a quantidade. A informação do produto pode ser pelo código.
 #   O programa deve apresentar os itens da venda contendo as informações do item (código, nome e valor), quantidade e valor total do produto.
 #   O programa deve apresentar o valor total da venda
+"""
 produto = []
 venda = []
 e = 1
@@ -73,22 +74,31 @@ while e > 0:
                 print("Produto ",sumProd,' codigo: ',x['codigo'],' nome: ',x['nome'],' valor: ',x['valor'])
             f = 1
             while f > 0:
-            addVendaProd = input('Informe o codigo do produto: ')
-            for x in produto:
-                if x['codigo'] == addVendaProd:
-                    addVendaQuant = input('Informe a quantidade do produto: ')
-                    venda.append({
-                        "codigo": x['codigo'],
-                        "nome": x['nome'],
-                        "valor": x['valor'],
-                        "quant": addVendaQuant,
-                    })
-                    f += 1
-                else:
-                    addNewProd = input('O produto nao esta na lista, deseja inserir outro produto? (S/N)')
-                    if addNewProd == "S" or addNewProd == "s":
-                        f += 1
+                addVendaProd = input('Informe o codigo do produto: ')
+                for x in produto:
+                    if x['codigo'] == addVendaProd:
+                        addVendaQuant = input('Informe a quantidade do produto: ')
+                        venda.append({
+                            "codigo": x['codigo'],
+                            "nome": x['nome'],
+                            "valor": x['valor'],
+                            "quant": addVendaQuant,
+                        })
+                        addNovaVenda = input('Deseja adicionar produtos a venda? (S/N)')
+                        if addNovaVenda == "S" or addNovaVenda == "s":
+                            f += 1
+                        else:
+                            f = 0
+                            for v in venda:
+                                somaVenda = int(v["valor"]) * int(v["quant"])
+                                print('A soma do produto ',v["nome"],' é igual a: ', somaVenda)
+                            break
                     else:
-                        f = 0
-    else:
-        print("Fim do programa!")
+                        addNewProd = input('O produto nao esta na lista, deseja inserir outro produto? (S/N)')
+                        if addNewProd == "S" or addNewProd == "s":
+                            f += 1
+                            break
+                        else:
+                            f = 0
+                            break
+"""
