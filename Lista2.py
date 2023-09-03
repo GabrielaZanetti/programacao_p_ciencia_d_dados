@@ -9,6 +9,7 @@
 #   As respostas das questões podem ser de “A” até “E”.
 #   O número de questões pode ser variável.
 #   Deve permitir verificar os acertos de mais de um aluno.
+"""
 gabarito = input('Informe o gabarito(exemplo: “A-B-C-A-B-C-E-D”): ')
 alunos = []
 alunosSoma = []
@@ -41,7 +42,7 @@ for a in alunos:
     })
 for alu in alunosSoma:
     print(alu['nome'],";",alu['resposta'],";",alu['acertos'],";",)
-
+"""
 #   2. Escreva um programa que faz o registro da venda de produtos. Para isso, é preciso:
 #       Obter um arquivo com as informações dos produtos, contendo: Código, nome e valor. Defina o formato do arquivo.
 #       Adicionar produtos na venda, onde o usuário informa o produto e a quantidade. A informação do produto pode ser pelo código.
