@@ -6,7 +6,7 @@ if a > 0:
     raiz = math.sqrt(a)
     print(raiz)
 else:
-    print("número é inválido5")
+    print("número é inválido")
 """
 
 # 2. Faça um programa que receba um número inteiro e mostre se este número é par ou ímpar.
@@ -38,6 +38,7 @@ else:
 #   Exemplo de entrada das respostas e do gabarito “A-B-C-A-B-C-E-D”
 #   O número de questões pode ser variável (obtenha a informação do usuário)
 #   Deve permitir verificar os acertos de mais de um aluno.
+"""
 gabarito = input('Informe o gabarito(exemplo: “A-B-C-A-B-C-E-D”): ')
 alunos = []
 alunosSoma = []
@@ -58,12 +59,17 @@ for a in alunos:
     respAluno = a["resposta"].split('-')
     respGabarito = gabarito.split('-')
     i = 0
+    valor = 0
     while i < len(respAluno):
-        if respAluno[i] == gabarito[i]:
-            
+        if respAluno[i] == respGabarito[i]:
+            valor = valor + 1
         i += 1
-
-
+    alunosSoma.append({
+        "nome": a["nome"],
+        'acertos': valor
+    })
+print(alunosSoma)
+"""
 
 # 5. Escreva um programa que faz o registro da venda de produtos. Para isso, é preciso:
 #   Armazenar as informações dos produtos, contendo: Código, nome e valor.
