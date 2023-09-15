@@ -1,4 +1,6 @@
 #   heranca
+import Pessoa
+
 class Aluno(Pessoa):
     def __init__(self, nome, idade, matricula):
         # metodo construtor de Pessoas 
