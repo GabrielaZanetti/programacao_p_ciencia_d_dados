@@ -1,0 +1,52 @@
+{
+    "gabarito": [
+        {
+            "questao": 1,
+            "reposta": "A"
+        },
+        {
+            "questao": 2,
+            "reposta": "B"
+        },
+        {
+            "questao": 3,
+            "reposta": "B"
+        }
+    ],
+    "alunos": [
+        {
+            "nome": "Paulo",
+            "repostas": [
+                {
+                    "questao": 1,
+                    "reposta": "B"
+                },
+                {
+                    "questao": 2,
+                    "reposta": "B"
+                },
+                {
+                    "questao": 3,
+                    "reposta": "B"
+                }
+            ]
+        },
+        {
+            "nome": "Ana",
+            "repostas": [
+                {
+                    "questao": 1,
+                    "reposta": "A"
+                },
+                {
+                    "questao": 2,
+                    "reposta": "A"
+                },
+                {
+                    "questao": 3,
+                    "reposta": "A"
+                }
+            ]
+        }
+    ]
+}
