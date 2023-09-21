@@ -1,7 +1,7 @@
 #   heranca
 import Pessoa
 
-class Aluno(Pessoa):
+class Aluno(Pessoa.Pessoa):
     def __init__(self, nome, idade, matricula):
         # metodo construtor de Pessoas 
         super().__init__(nome, idade)
