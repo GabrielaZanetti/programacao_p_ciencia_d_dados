@@ -19,6 +19,9 @@ class ContaCorrente():
         self.numeroConta = numeroConta
         self.nomeCorrentista = nomeCorrentista
         self.saldo = saldo
+    
+    def __str__(self):
+        return self.numeroConta, self.nomeCorrentista, self.saldo
 
     def alterNameCorrentista(self, novoNome):
         self.nomeCorrentista = novoNome
@@ -67,22 +70,26 @@ conta2.transferenciaContas(60, conta3)
 conta3.transferenciaContas(90, conta1)
 conta3.transferenciaContas(10, conta2)
 
-lista = [
-    ["número da conta", conta1.getnumeroConta()],
-    ["nome do correntista", conta1.getnomeCorrentista()],
-    ["saldo", conta1.getsaldo()],
-    ["número da conta", conta2.getnumeroConta()],
-    ["nome do correntista", conta2.getnomeCorrentista()],
-    ["saldo", conta2.getsaldo()],
-    ["número da conta", conta3.getnumeroConta()],
-    ["nome do correntista", conta3.getnomeCorrentista()],
-    ["saldo", conta3.getsaldo()],
-]
+# lista = [
+#     ["número da conta", conta1.getnumeroConta()],
+#     ["nome do correntista", conta1.getnomeCorrentista()],
+#     ["saldo", conta1.getsaldo()],
+#     ["número da conta", conta2.getnumeroConta()],
+#     ["nome do correntista", conta2.getnomeCorrentista()],
+#     ["saldo", conta2.getsaldo()],
+#     ["número da conta", conta3.getnumeroConta()],
+#     ["nome do correntista", conta3.getnomeCorrentista()],
+#     ["saldo", conta3.getsaldo()],
+# ]
 
-arq = open('C:/Users/gabriela.zanetti/Documents/GitHub/programacao_p_ciencia_d_dados/listas_de_exercicios/lista4/relatorio.csv', "w")
-w = csv.writer(arq)
+# arq = open('C:/Users/gabriela.zanetti/Documents/GitHub/programacao_p_ciencia_d_dados/listas_de_exercicios/lista4/relatorio.csv', "w")
+# w = csv.writer(arq)
 
-for i in lista:
-    w.writerow(i)
+# for i in lista:
+#     w.writerow(i)
 
-arq.close()
+for i in (conta1, conta2, conta3):
+    print(i)
+#     w.writerow(i)
+
+# arq.close()

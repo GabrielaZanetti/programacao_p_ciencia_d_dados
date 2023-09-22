@@ -1,9 +1,21 @@
-número da conta,123
-nome do correntista,Paulo
-saldo,70
-número da conta,456
-nome do correntista,Ana
-saldo,20
-número da conta,789
-nome do correntista,Julia
-saldo,129
+nï¿½mero da conta,nome do correntista,saldo
+123,
+
+nï¿½mero da conta,123
+
+nome do correntista,Paulo
+
+saldo,70
+
+nï¿½mero da conta,456
+
+nome do correntista,Ana
+
+saldo,20
+
+nï¿½mero da conta,789
+
+nome do correntista,Julia
+
+saldo,129
+
