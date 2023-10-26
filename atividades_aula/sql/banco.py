@@ -7,5 +7,6 @@ def getConexao():
         password = "user",
         database = "estoque"
     )
+    return con
 
 print(getConexao)
