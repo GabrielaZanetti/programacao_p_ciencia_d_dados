@@ -14,8 +14,8 @@ cursor = con.cursor()
 # con.close
 
 #   Escreva um programa que utilize o banco de dados estoque para inserir itens em uma venda e abater do estoque.
-sql = "INSERT INTO venda (id_venda, id_vendedor, id_cliente, vl_total_venda) VALUES (default, %s, %s)"
-par = ()
+sql = "INSERT INTO venda (id_venda, id_vendedor, id_cliente, dt_venda, vl_total_venda) VALUES (default, %s, %s, %s, %s)"
+par = (1, 1, '2023-10-26', 73.44)
 cursor.execute(sql, par)
 
 con.commit()
