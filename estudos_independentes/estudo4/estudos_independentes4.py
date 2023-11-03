@@ -20,34 +20,35 @@ Com base no arquivo do censo “Prévia da população calculada com base nos re
 """
 
 import csv
-import json
+import banco
 
-arq = (open('programacao_p_ciencia_d_dados/estudos_independentes/estudo3/POP2022_Municipios_20230622.csv'))
+con = banco.getConexao()
+cursor = con.cursor(prepared=True)
+
+arq = (open('C:/Users/gabriela.zanetti/Documents/GitHub/programacao_p_ciencia_d_dados/estudos_independentes/estudo4/POP2022_Municipios_20230622.csv'))
 dados = csv.reader(arq) 
 
 estados_sem_duplicado = []
 estados = []
 municipios = []
 for item in dados:
-    municipios.append({
-        'uf': item[0],
-        'municipios': {
-            'cod_municipio': item[2],
-            'nome_municipio': item[3],
-            'populacao': item[4].strip()
-        }
-    })
+    municipios.append(( item[2], item[3], int(item[4].replace('.', '')), int(item[1]) ))
     if not item[0] in estados_sem_duplicado:
         estados_sem_duplicado.append(item[0])
-        estados.append({
-            'uf': item[0],
-            'ucod_uff': item[1],
-        })
+        estados.append(( item[0], int(item[1]) ))
 
-conjunto_municipios = []
-for estado in estados:
-    municipio = []
-    for muni in municipios:
-        if muni['uf'] == estado['uf']:
-            municipio.append(muni['municipios'])
-    estado['municipios'] = municipio
+sql_estados = "INSERT INTO estado (uf, cod_uf) VALUES (?, ?)"
+
+cursor.executemany(sql_estados, estados)
+con.commit()
+
+print(cursor.rowcount, "registros inseridos")
+
+sql_municipios = "INSERT INTO municipios (num_muni, cod_municipio, nome_municipio, populacao, cod_uf) VALUES (default, ?, ?, ?, ?)"
+
+cursor.executemany(sql_municipios, municipios)
+con.commit()
+
+print(cursor.rowcount, "registros inseridos")
+
+con.close

@@ -79,14 +79,14 @@ AM,13,00102,Anori,  17.052
 AM,13,00144,Apui,  21.403 
 AM,13,00201,Atalaia do Norte,  15.440 
 AM,13,00300,Autazes,  41.672 
-AM,13,00409,Barcelos,18.399(3)
+AM,13,00409,Barcelos,18.399
 AM,13,00508,Barreirinha,  30.990 
-AM,13,00607,Benjamin Constant,37.436(4)
+AM,13,00607,Benjamin Constant,37.436
 AM,13,00631,Beruri,  20.807 
 AM,13,00680,Boa Vista do Ramos,  24.018 
 AM,13,00706,Boca do Acre,  35.964 
-AM,13,00805,Borba,33.209(5)
-AM,13,00839,Caapiranga,13.851(6)
+AM,13,00805,Borba,33.209
+AM,13,00839,Caapiranga,13.851
 AM,13,00904,Canutama,  17.362 
 AM,13,01001,Carauari,  29.176 
 AM,13,01100,Careiro,  30.819 
@@ -95,19 +95,19 @@ AM,13,01209,Coari,  71.130
 AM,13,01308,Codajas,  24.071 
 AM,13,01407,Eirunepe,  33.173 
 AM,13,01506,Envira,  17.034 
-AM,13,01605,Fonte Boa,27.692(7)
-AM,13,01654,Guajara,13.809(8)
-AM,13,01704,Humaita,59.504(9)
+AM,13,01605,Fonte Boa,27.692
+AM,13,01654,Guajara,13.809
+AM,13,01704,Humaita,59.504
 AM,13,01803,Ipixuna,  24.387 
 AM,13,01852,Iranduba,  59.767 
-AM,13,01902,Itacoatiara,103.826(31)
-AM,13,01951,Itamarati,10.783(10)
-AM,13,02009,Itapiranga,10.183(11)
+AM,13,01902,Itacoatiara,103.826
+AM,13,01951,Itamarati,10.783
+AM,13,02009,Itapiranga,10.183
 AM,13,02108,Japura,9.281
 AM,13,02207,Jurua,  10.501 
-AM,13,02306,Jutai,25.048(13)
-AM,13,02405,Labrea,47.003(14)
-AM,13,02504,Manacapuru,102.736(15)
+AM,13,02306,Jutai,25.048
+AM,13,02405,Labrea,47.003
+AM,13,02504,Manacapuru,102.736
 AM,13,02553,Manaquiri,  17.333 
 AM,13,02603,Manaus,  2.054.731 
 AM,13,02702,Manicore,  59.225 
@@ -115,25 +115,25 @@ AM,13,02801,Maraa,  15.706
 AM,13,02900,Maues,  61.167 
 AM,13,03007,Nhamunda,  20.249 
 AM,13,03106,Nova Olinda do Norte,  27.088 
-AM,13,03205,Novo Airao,15.819(16)
+AM,13,03205,Novo Airao,15.819
 AM,13,03304,Novo Aripuana,  24.251 
-AM,13,03403,Parintins,96.251(17)
-AM,13,03502,Pauini,20.351(18)
+AM,13,03403,Parintins,96.251
+AM,13,03502,Pauini,20.351
 AM,13,03536,Presidente Figueiredo,  30.762 
 AM,13,03569,Rio Preto da Eva,  24.807 
-AM,13,03601,Santa Isabel do Rio Negro,14.305(19)
-AM,13,03700,Santo Antônio do Iça,28.233(32)
+AM,13,03601,Santa Isabel do Rio Negro,14.305
+AM,13,03700,Santo Antônio do Iça,28.233
 AM,13,03809,Sao Gabriel da Cachoeira,  51.921 
 AM,13,03908,Sao Paulo de Olivença,  32.727 
 AM,13,03957,Sao Sebastiao do Uatuma,  11.697 
 AM,13,04005,Silves,  11.572 
-AM,13,04062,Tabatinga,66.837(20)
+AM,13,04062,Tabatinga,66.837
 AM,13,04104,Tapaua,  21.914 
 AM,13,04203,Tefe,  74.142 
 AM,13,04237,Tonantins,  20.180 
 AM,13,04260,Uarini,  14.597 
-AM,13,04302,Urucara,18.582(21)
-AM,13,04401,Urucurituba,24.017(22)
+AM,13,04302,Urucara,18.582
+AM,13,04401,Urucurituba,24.017
 RR,14,00027,Amajari,  16.994 
 RR,14,00050,Alto Alegre,  23.582 
 RR,14,00100,Boa Vista,  408.157 
@@ -208,7 +208,7 @@ PA,15,03457,Ipixuna do Para,  29.116
 PA,15,03507,Irituia,  30.627 
 PA,15,03606,Itaituba,  137.170 
 PA,15,03705,Itupiranga,  53.873 
-PA,15,03754,Jacareacanga,24.742(23)
+PA,15,03754,Jacareacanga,24.742
 PA,15,03804,Jacunda,  36.184 
 PA,15,03903,Juruti,  57.837 
 PA,15,04000,Limoeiro do Ajuru,  29.617 
@@ -577,7 +577,7 @@ MA,21,07308,Nova Iorque,  4.308
 MA,21,07357,Nova Olinda do Maranhao,  14.277 
 MA,21,07407,Olho d'Agua das Cunhas,  17.937 
 MA,21,07456,Olinda Nova do Maranhao,  13.320 
-MA,21,07506,Paço do Lumiar,145.752(24)
+MA,21,07506,Paço do Lumiar,145.752
 MA,21,07605,Palmeirândia,  21.056 
 MA,21,07704,Paraibano,  19.530 
 MA,21,07803,Parnarama,  31.179 
@@ -1524,7 +1524,7 @@ PE,26,05202,Escada,  59.526
 PE,26,05301,Exu,  31.803 
 PE,26,05400,Feira Nova,  21.362 
 PE,26,05459,Fernando de Noronha,  2.947 
-PE,26,05509,Ferreiros,15.040(25)
+PE,26,05509,Ferreiros,15.040
 PE,26,05608,Flores,  20.213 
 PE,26,05707,Floresta,  30.110 
 PE,26,05806,Frei Miguelinho,  13.666 
@@ -1935,7 +1935,7 @@ BA,29,08804,Contendas do Sincora,  4.750
 BA,29,08903,Coraçao de Maria,  28.340 
 BA,29,09000,Cordeiros,  7.555 
 BA,29,09109,Coribe,  14.158 
-BA,29,09208,Coronel Joao Sa,17.000(26)
+BA,29,09208,Coronel Joao Sa,17.000
 BA,29,09307,Correntina,  32.709 
 BA,29,09406,Cotegipe,  13.059 
 BA,29,09505,Cravolândia,  4.445 
@@ -1971,7 +1971,7 @@ BA,29,11709,Guanambi,  87.580
 BA,29,11808,Guaratinga,  20.338 
 BA,29,11857,Heliopolis,  12.301 
 BA,29,11907,Iaçu,  25.178 
-BA,29,12004,Ibiassucê,10.426(27)
+BA,29,12004,Ibiassucê,10.426
 BA,29,12103,Ibicarai,  21.688 
 BA,29,12202,Ibicoara,  20.874 
 BA,29,12301,Ibicui,  13.791 
@@ -2157,7 +2157,7 @@ BA,29,26707,Rio de Contas,  13.634
 BA,29,26806,Rio do Antônio,  13.098 
 BA,29,26905,Rio do Pires,  9.585 
 BA,29,27002,Rio Real,  35.378 
-BA,29,27101,Rodelas,10.303(28)
+BA,29,27101,Rodelas,10.303
 BA,29,27200,Ruy Barbosa,  30.172 
 BA,29,27309,Salinas da Margarida,  14.989 
 BA,29,27408,Salvador,  2.610.987 
@@ -4213,7 +4213,7 @@ PR,41,21604,Renascença,  6.839
 PR,41,21703,Reserva,  26.786 
 PR,41,21752,Reserva do Iguaçu,  7.009 
 PR,41,21802,Ribeirao Claro,  12.357 
-PR,41,21901,Ribeirao do Pinhal,13.053(29)
+PR,41,21901,Ribeirao do Pinhal,13.053
 PR,41,22008,Rio Azul,  14.032 
 PR,41,22107,Rio Bom,  3.755 
 PR,41,22156,Rio Bonito do Iguaçu,  13.955 
@@ -5507,7 +5507,7 @@ GO,52,17104,Piracanjuba,  23.771
 GO,52,17203,Piranhas,  11.532 
 GO,52,17302,Pirenopolis,  26.598 
 GO,52,17401,Pires do Rio,  33.193 
-GO,52,17609,Planaltina,108.846(30)
+GO,52,17609,Planaltina,108.846
 GO,52,17708,Pontalina,  18.843 
 GO,52,18003,Porangatu,  44.061 
 GO,52,18052,Porteirao,  4.085 
