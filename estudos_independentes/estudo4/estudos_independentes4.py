@@ -25,7 +25,7 @@ import banco
 con = banco.getConexao()
 cursor = con.cursor(prepared=True)
 
-arq = (open('C:/Users/gabriela.zanetti/Documents/GitHub/programacao_p_ciencia_d_dados/estudos_independentes/estudo4/POP2022_Municipios_20230622.csv'))
+arq = (open('programacao_p_ciencia_d_dados/estudos_independentes/estudo4/POP2022_Municipios_20230622.csv'))
 dados = csv.reader(arq) 
 
 estados_sem_duplicado = []
